@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
+
+import { SiLeetcode } from "react-icons/si";
 const Footer = ({isDarkMode}) => {
   return (
     <div className='mt-20'>
@@ -17,9 +19,16 @@ const Footer = ({isDarkMode}) => {
         <p>© 2026 Arpit Chouksey. All rights reserved.</p>
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
             <li><i className="fa-brands fa-github"></i> <a target='_blank' href="https://github.com/ArpitChouksey99">GitHub</a></li>
-            <li><i className="fa-brands fa-linkedin"></i> <a target='_blank' href="https://github.com/https://www.linkedin.com/in/arpit-chouksey-9647a5220/">LinkedIn</a></li>
-            <li><a target='_blank' href="https://github.com/ArpitChouksey99"><i className="fa-brands fa-square-x-twitter"></i> Twitter</a></li>
-
+            <li><i className="fa-brands fa-linkedin"></i> <a target='_blank' href="https://www.linkedin.com/in/arpit-chouksey-9647a5220/">LinkedIn</a></li>
+<li>
+  <SiLeetcode className="inline mr-1 mb-2 text-base" />
+  <a
+    target="_blank"
+    rel="noopener noreferrer"
+    href="https://leetcode.com/u/Arpit_Chouksey/"
+  >LeetCode
+  </a>
+</li>
         </ul>
       </div>
 
