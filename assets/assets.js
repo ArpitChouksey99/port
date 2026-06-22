@@ -113,7 +113,7 @@ export const workData = [
       "Developed an AI-powered chat web application where users can interact with an intelligent chatbot to ask questions and get instant responses in real time. Implemented a clean chat interface and integrated AI APIs for generating responses.",
     tech: ["Next.js", "React", "Node.js", "Tailwind CSS", "MongoDb", "MongoDB Atlas", "HTML", "JavaScript", "ImageKit Api", "Stripe", "JWT", "OpenAI API"],
     github: "https://github.com/ArpitChouksey99/Quick-gpt",
-    live: "https://wandernew.onrender.com/",
+    live: "https://quick-gpt-blush.vercel.app/",
     bgImage: qwin
   },{
     title: "Wanderlust — Airbnb-Style Hotel Listing Platform",
@@ -121,7 +121,7 @@ export const workData = [
       "Developed a travel listing web application where users can explore destinations, view property details, see locations on an interactive map, and book stays. Implemented user authentication, property listing management, reviews, and full CRUD operations with a responsive UI.",
     tech: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "EJS", "Passport.js", "Joi", "Cloudinary", "MapTiler API"],
     github: "https://github.com/ArpitChouksey99/WANDERNEW",
-    live: "https://quick-gpt-blush.vercel.app/",
+    live: "https://wandernew.onrender.com/",
     bgImage: wand
   },{
     title: "FOREVER-E-Commerce Website",
